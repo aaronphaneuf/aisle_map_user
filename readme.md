@@ -36,13 +36,13 @@ Since this is a basic version of linktofilehere, item information is 100% genera
 Although I use SQL for this, as an example of obtaining the data manually, my POS allows me to filter specific items, date ranges, and stores to obtain a csv that looks like the following:
 
 <p align="center">
-<img src="https://github.com/aaronphaneuf/aisle_map/blob/master/images/import_info.PNG">
+<img src="https://github.com/aaronphaneuf/aisle_map_user/blob/master/images/import_info.PNG">
 </p>
 
 for sales_data.txt, I only care about Item ID and Quantity Sold, so I create a text file with just those two columns, separated by tab.
 
 <p align="center">
-<img src="https://github.com/aaronphaneuf/aisle_map/blob/master/images/sales_data.PNG">
+<img src="https://github.com/aaronphaneuf/aisle_map_user/blob/master/images/sales_data.PNG">
 </p>
 
 ## store_scan.txt
@@ -63,14 +63,14 @@ Whenever there is a shelf break, insert one of the following codes:
 So that the script knows how present the map to replicate the shelf.
 
 <p align="center">
-<img src="https://github.com/aaronphaneuf/aisle_map/blob/master/images/storescan.PNG">
+<img src="https://github.com/aaronphaneuf/aisle_map_user/blob/master/images/storescan.PNG">
 </p>
 
 Once the two files above are created, running aisle_map_user.py will generate
 an html file titled heatmap.html:
 
 <p align="center">
-<img src="https://github.com/aaronphaneuf/aisle_map/blob/master/images/heatmap.PNG">
+<img src="https://github.com/aaronphaneuf/aisle_map_user/blob/master/images/heatmap.PNG">
 </p>
 
 ## Expanding
